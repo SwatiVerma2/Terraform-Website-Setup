@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error | Swati Verma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .error-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            animation: fadeIn 2s ease;
+        }
+
+        .error-container h1 {
+            font-size: 6em;
+            margin: 0;
+            color: #ff6b6b;
+            animation: slideInFromTop 1.5s ease;
+        }
+
+        .error-container h2 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        .error-container p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .error-container a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #ff6b6b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .error-container a:hover {
+            background-color: #e95b5b;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInFromTop {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Oops! Page Not Found</h2>
+        <p>It seems the page you are looking for doesn't exist.</p>
+        <a href="index.html">Go Back to Home</a>
+    </div>
+
+</body>
+</html>
