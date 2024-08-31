@@ -84,3 +84,8 @@ Defines the `bucket_name` variable used in the configuration.
 - Thanks to [Terraform](https://www.terraform.io/) and [AWS](https://aws.amazon.com/) for providing the tools and services used in this project.
 
 ---
+
+Static Website
+
+![image](https://github.com/user-attachments/assets/ac23806a-603d-481d-a561-cb08029cd1e1)
+
